@@ -45,12 +45,12 @@ Developed by ***Luca Armiraglio***
 Or install them manually:   
   ```bash
     pip install requests beautifulsoup4
+  ```
 
-
-Usage
+### Usage
     python ezdorker.py example.com
 
-Advanced Options
+### Advanced Options
 Option	Description	Example
 -o OUTPUT	Save results to file (supports .json, .csv, .txt)	-o results.json
 -e ENGINES	Search engines to use (space-separated)	-e google bing
@@ -58,6 +58,9 @@ Option	Description	Example
 -b	Open dorks in browser	-b
 -v	Verbose output mode	-v
 
-Example:
+### Example:
 python ezdorker.py example.com -o results.csv -e google bing duckduckgo -c filetype config -v
+
+
+EZDorker was developed for educational and ethical security testing purposes only.
 
