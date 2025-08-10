@@ -48,7 +48,9 @@ Or install them manually:
   ```
 
 ### Usage
-    python ezdorker.py example.com
+```bash
+python ezdorker.py example.com
+```
 
 ### Advanced Options
 Option	Description	Example
@@ -60,7 +62,7 @@ Option	Description	Example
 
 ### Example:
 ```bash
-    python ezdorker.py example.com -o results.csv -e google bing duckduckgo -c filetype config -v
+python ezdorker.py example.com -o results.csv -e google bing duckduckgo -c filetype config -v
 ```
 
 EZDorker was developed for educational and ethical security testing purposes only.
