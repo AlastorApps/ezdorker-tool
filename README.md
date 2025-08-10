@@ -37,11 +37,12 @@ Developed by ***Luca Armiraglio***
    ```bash
    git clone https://github.com/yourusername/ezdorker.git
    cd ezdorker
-
+   ```
 
 2. Install dependencies:
    ```bash
     pip install -r requirements.txt
+   ``` 
 Or install them manually:   
   ```bash
     pip install requests beautifulsoup4
