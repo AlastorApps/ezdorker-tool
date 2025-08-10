@@ -59,8 +59,9 @@ Option	Description	Example
 -v	Verbose output mode	-v
 
 ### Example:
-python ezdorker.py example.com -o results.csv -e google bing duckduckgo -c filetype config -v
-
+```bash
+    python ezdorker.py example.com -o results.csv -e google bing duckduckgo -c filetype config -v
+```
 
 EZDorker was developed for educational and ethical security testing purposes only.
 
