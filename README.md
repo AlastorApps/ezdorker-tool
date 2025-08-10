@@ -37,3 +37,27 @@ Developed by ***Luca Armiraglio***
    ```bash
    git clone https://github.com/yourusername/ezdorker.git
    cd ezdorker
+
+
+2. Install dependencies:
+   ```bash
+    pip install -r requirements.txt
+Or install them manually:   
+  ```bash
+    pip install requests beautifulsoup4
+
+
+Usage
+    python ezdorker.py example.com
+
+Advanced Options
+Option	Description	Example
+-o OUTPUT	Save results to file (supports .json, .csv, .txt)	-o results.json
+-e ENGINES	Search engines to use (space-separated)	-e google bing
+-c CATEGORIES	Dork categories to use (space-separated)	-c filetype login
+-b	Open dorks in browser	-b
+-v	Verbose output mode	-v
+
+Example:
+python ezdorker.py example.com -o results.csv -e google bing duckduckgo -c filetype config -v
+
